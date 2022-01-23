@@ -1,0 +1,17 @@
+@import "abstracts/variables";
+
+.container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.products-widget {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.offer-bg-image {
+    background-image: url("/images/offer.webp");
+}
+
