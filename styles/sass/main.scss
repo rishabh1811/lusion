@@ -3,6 +3,15 @@
 .container-fluid {
     padding-left: 80px;
     padding-right: 80px;
+
+    @media (max-width: 1014px) {
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+    @media (max-width: 767px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 .products-widget {
@@ -13,5 +22,11 @@
 
 .offer-bg-image {
     background-image: url("/images/offer.webp");
+
+    @media (max-width: 890px) {
+     background-size: cover;
+     background-position: center;
+     
+    }
 }
 

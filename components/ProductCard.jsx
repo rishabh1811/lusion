@@ -4,7 +4,8 @@ export default function ProductCard(props) {
   return (
     
       <div className="">
-        <div className="overflow-hidden mb-7">
+        <div className="overflow-hidden mb-7
+                        md:mb-4">
           <img
             className="w-full  hover:scale-110 transition-transform duration-500"
             src="/images/product.webp"

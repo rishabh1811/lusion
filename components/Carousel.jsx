@@ -29,26 +29,33 @@ export default function Carousel() {
         {/* Slide 1 */}
         <SwiperSlide>
           <CarouselItem>
-            <div className="relative">
-              <div
-                className="text-center 
-                            absolute top-2/4 left-[17%]"
-              >
-                <h1 className="text-5xl mb-4">Best Handmade Goods</h1>
-                <p className="text-2xl mb-8 text-gray-500">
-                  Made with love and passion
-                </p>
-                <button
-                  className="border border-dark 
-                            px-4 py-3 
-                          hover:bg-dark hover:text-white 
-                            transition duration-300"
-                >
-                  View all products
-                </button>
+            <div className="relative flex container-fluid
+                            md:flex-col md:mx-auto">
+
+              <div className="text-center self-center relative left-[122px]
+                                md:left-0 md:pt-12">
+                   <div className="">
+                         <h1 className="text-5xl mb-4">Best Handmade Goods</h1>
+                         <p className="text-2xl mb-8 text-gray-500">
+                           Made with love and passion
+                         </p>
+                         <button
+                           className="border border-dark
+                                     px-4 py-3
+                                   hover:bg-dark hover:text-white
+                                     transition duration-300"
+                         >
+                           View all products
+                         </button>
+                   </div>
               </div>
 
-              <img className="" src="/images/slider-1.webp" alt="" />
+              {/* <img className="2xl:hidden" src="/images/slider-1.webp" alt="" /> */}
+              <div className="">
+                   <img className="mx-auto w-[27rem]" src="/images/slider-1-sm.webp" alt="" />
+              </div>
+
+
             </div>
           </CarouselItem>
         </SwiperSlide>

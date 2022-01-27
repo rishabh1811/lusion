@@ -20,7 +20,7 @@ export default function Footer() {
           LUSION
         </h2>
         <ul
-          className="flex gap-x-10 justify-center text-lg
+          className="flex flex-wrap gap-x-10 justify-center text-lg
                         mb-12"
         >
           <li className=""><a href="#">About Us</a></li>
@@ -31,10 +31,12 @@ export default function Footer() {
           <li className=""><a href="#">FAQs</a></li>
         </ul>
 
-        <div className="flex w-1/2 mx-auto gap-x-8">
+        <div className="flex max-w-[700] mx-auto gap-x-8
+                        300:flex-col 300:gap-4  ">
           <input
             className="border-b-2  bg-transparent grow
-                                focus-visible:border-b-gray-700 outline-none"
+                       focus-visible:border-b-gray-700 outline-none
+                       300:text-center"
             placeholder="Enter Your Email"
             type="text"
             name="email"
